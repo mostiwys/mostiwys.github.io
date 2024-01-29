@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="universal.css">
+</head>
+
+<body>
+    <header>
+        <a class="button" style="vertical-align: middle" href="index2.html">Info</a>
+        <dialog id="popUp">
+            <h1><span id="hake">Search</span>-box</h1>
+            <hr />
+            <p>this is the search box</p>
+            <a id="lukk" onClick="popUp.close()">
+                X
+            </a>
+        </dialog>
+        <a onClick="popUp.showModal()">
+            Search
+        </a>
+        <button id="toggleNightMode">Night Mode</button>
+    </header>
+
+    <main>
+      <div class="text">
+        <h2>Podcast</h2>
+        <audio controls>
+            <source src="Eng-lyd-IT.mp3" type="audio/mpeg">
+            Din nettleser støtter ikke avspilling av lyd.
+        </audio>
+    
+      </div>
+      </main>
+
+    
+
+
+    <footer>
+        <h3>Footermeny</h3>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
